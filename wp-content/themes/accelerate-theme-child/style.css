@@ -2,8 +2,8 @@
 Theme Name:   Accelerate Theme Child
 Theme URI:    http://example.com/accelerate-theme-child/
 Description:  Accelerate Child Theme - Accelerate
-Author:   	Your Name!
-Author URI:   http://example.com
+Author:   	Grace Witter!
+Author URI:   http://gracewitter.com
 Template: 	accelerate-theme
 Version:      2.0.0
 Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -12,17 +12,22 @@ Text Domain:  accelerate-theme-child
 
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
-    }
+}
 
 #masthead {
-    background: none repeat scroll 0 0 #45ac9d;
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+#masthead nav ul li {
+    float: left;
+    margin: 0 10px; 
 }
 
 .button {
 	background: #45ac9d;
 }
 
-.blog-post {
+.blog-post{
     width: 50%;
     float: left;
     margin-bottom: 2em;
@@ -35,33 +40,40 @@ Text Domain:  accelerate-theme-child
     margin: 2em 0 .5em;
 }
 
-.blog-post h3{
-    font-size: 1.5em;
+.blog-post h3 {
+	font-size: 1.5em;
 }
 
 .read-more-link {
-    font-family: 'Montserrat';
+	font-family: 'Montserrat';
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
 }
 
-.case-study{
+/* Case Studies */
+
+article.case-study {
+    margin: 40px 0 0;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
 }
-.case-study h4{
-    margin-top: 0;
-    font-weight: normal;
-    font-size: .75em;
+
+aside.case-study-sidebar {
+    width: 330px;
+    margin: 0 50px 0 0;
 }
 
-.case-study span{
-    color: #a6a6a6;
-    
+div.case-study-images {
+    width: 660px;
 }
 
-.case-study-sidebar{
-    width: 30%;
+div.case-study-images img {
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
 }
+
+ 
+
+
