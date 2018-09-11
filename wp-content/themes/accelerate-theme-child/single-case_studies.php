@@ -30,7 +30,7 @@ get_header(); ?>
             
             <?php the_content(); ?>
             
-            <p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p>
+            <p><strong><a id="read-more-link" href="<?php echo $link; ?>">Site Link &#62;</a></strong></p>
         </aside>
 
         <div class="case-study-images">
@@ -49,6 +49,7 @@ get_header(); ?>
 				
             </article>
 			<?php endwhile; // end of the loop. ?>
+        <a case="link" href="<?php echo site_url('/case-studies/') ?>">&larr;<span>Back to Work</span></a>
 		</div><!-- .main-content -->
 
 		

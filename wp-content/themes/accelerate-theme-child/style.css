@@ -94,6 +94,18 @@ aside.case-study-sidebar {
     margin: 0 50px 0 0;
 }
 
+aside.case-study-sidebar h5{
+    font-size: .75em;
+    color: #a6a6a6;
+    text-transform: none;
+    margin: 0;
+}
+
+.link{
+    color: #45ac9d;
+    text-transform: uppercase;
+}
+
 div.case-study-images {
     width: 660px;
 }
@@ -101,6 +113,14 @@ div.case-study-images {
 div.case-study-images img {
     margin-bottom: 50px;
     border: 1px solid #dddddd;
+}
+
+/* Case Studies Archive */
+
+div.case-study-images img {
+	width: 100%;
+    max-width: 512px;
+	height: auto;
 }
 
 
