@@ -25,7 +25,7 @@ get_header(); ?>
 
 <section class="featured-work">
     <div class="site-content">
-        <h4>Featured Work</h4>
+        <h4 id="featured-work-title">Featured Work</h4>
         <ul class="homepage-featured-work">
         <?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
             <?php while ( have_posts() ) : the_post(); 
@@ -53,7 +53,7 @@ get_header(); ?>
      <?php while ( have_posts() ) : the_post(); ?>
        <h3><?php the_title(); ?></h3>
        <?php the_excerpt(); ?>
-      <a href="<?php the_permalink(); ?>" class="read-more-link">Read More</a>
+      
      <?php endwhile; ?> 
     <?php wp_reset_query(); ?>
    </div>
