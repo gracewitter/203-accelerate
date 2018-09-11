@@ -101,9 +101,13 @@ aside.case-study-sidebar h5{
     margin: 0;
 }
 
-.link{
+#read-more-link{
     color: #45ac9d;
     text-transform: uppercase;
+}
+
+#read-more-link span {
+    color: black;
 }
 
 div.case-study-images {
