@@ -49,7 +49,7 @@ get_header(); ?>
 				
             </article>
 			<?php endwhile; // end of the loop. ?>
-        <strong><a id="read-more-link" href="<?php echo site_url('/case-studies/') ?>">&larr; <span>Back to Work</span></a></strong>
+        <strong><a id="read-more-link" href="<?php echo site_url('/case-studies/') ?>"><span id="read-more-arrow">&larr; </span>Back to Work</a></strong>
 		</div><!-- .main-content -->
 
 		

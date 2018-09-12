@@ -30,6 +30,32 @@ Text Domain:  accelerate-theme-child
 	background: #45ac9d;
 }
 
+.social-media-navigation ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    list-style: none;   
+}
+
+.social-media-navigation li{
+    font-size: 1.5em;
+   
+    
+}
+
+.fa-lg{
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .blog-post{
     width: 50%;
     float: left;
@@ -102,12 +128,14 @@ aside.case-study-sidebar h5{
 }
 
 #read-more-link{
-    color: #45ac9d;
+    color: black;
     text-transform: uppercase;
 }
 
-#read-more-link span {
-    color: black;
+#read-more-arrow {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #45ac9d;
 }
 
 div.case-study-images {
