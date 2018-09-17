@@ -39,9 +39,7 @@ Text Domain:  accelerate-theme-child
 }
 
 .social-media-navigation li{
-    font-size: 1.5em;
-   
-    
+    font-size: 1.5em;   
 }
 
 .fa-lg{
@@ -153,6 +151,30 @@ div.case-study-images img {
 	width: 100%;
     max-width: 512px;
 	height: auto;
+}
+
+/* Contact Form */
+
+.nf-form-content {
+    
+    margin-top: 50px;
+}
+
+
+
+#nf-field-1-wrap{
+    position: fixed;
+    width: 400px;
+}
+
+#nf-field-2-wrap{
+    float: right;
+    width: 400px;
+}
+
+#nf-field-4{
+    float: right;
+    background: #45ac9d;
 }
 
 
