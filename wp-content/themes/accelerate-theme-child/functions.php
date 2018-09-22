@@ -39,6 +39,7 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
+
 }
 // Hook this custom post type function into the theme
 add_action( 'init', 'create_custom_post_types' );
