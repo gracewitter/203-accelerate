@@ -45,3 +45,17 @@ function create_custom_post_types() {
 // Hook this custom post type function into the theme
 add_action( 'init', 'create_custom_post_types' );
 
+//Dynamic Sidebar
+function accelerate_theme_child_widget_init(){
+    
+    register_sidebar( array (
+        'name' => __( 'Homepage sidebar', 'accelerate-theme-child'),
+        'id' => 'sidebar-2',
+        'description' => __( 'Appears on the static front page template', 'accelerate-theme-child'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+	    'before_title' => '<h4 class="widget-title">',
+	    'after_title' => '</h4>',
+    ));
+}
+add_action('widgets_init', 'accelerate_theme_child_widget_init');
